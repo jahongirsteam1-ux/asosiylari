@@ -1,0 +1,18 @@
+{
+  "name": "techstore-payment-bot",
+  "version": "2.0.0",
+  "description": "TechStore — Firebase + Kanal avtomatik to'lov bot",
+  "main": "bot_firebase.js",
+  "scripts": {
+    "start": "node bot_firebase.js",
+    "dev": "nodemon bot_firebase.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "firebase-admin": "^12.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

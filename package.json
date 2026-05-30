@@ -4,7 +4,7 @@
   "description": "TechStore — Firebase + Kanal avtomatik to'lov bot",
   "main": "bot_firebase.js",
   "scripts": {
-    "start": "node bot_firebase.js",
+    "start": "node bot.js",
     "dev": "nodemon bot_firebase.js"
   },
   "dependencies": {
